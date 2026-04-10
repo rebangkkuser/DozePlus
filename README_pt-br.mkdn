@@ -1,0 +1,76 @@
+# DozePlus
+
+Um módulo leve e seguro para otimização do comportamento Doze no Android, melhorando eficiência de bateria e gerenciamento de estado de inatividade.
+
+---
+
+## 🌐 Idioma / Language
+
+- 🇺🇸 English: https://github.com/rebangkkuser/DozePlus/blob/main/README.mkdn  
+- 🇧🇷 Português (Brasil): https://github.com/rebangkkuser/DozePlus/blob/main/README_pt-br.mkdn  
+
+---
+
+## ⚙️ Funcionalidades
+
+- Otimiza o comportamento do Doze no Android
+- Reduz carga de processos em segundo plano durante inatividade
+- Execução leve via script de serviço
+- Sem processos persistentes em segundo plano
+- Alterações seguras e reversíveis
+
+---
+
+## 📱 Requisitos
+
+- Android 8.0+ (API 26 ou superior)
+- Magisk instalado
+- Acesso root habilitado
+
+---
+
+## 📦 Instalação
+
+1. Baixe a versão mais recente
+2. Abra o Magisk Manager
+3. Instale o módulo pelo armazenamento
+4. Reinicie o dispositivo
+
+---
+
+## 🔧 Como funciona
+
+O DozePlus aplica ajustes no sistema durante o boot utilizando scripts do Magisk:
+
+- Ativa otimização de energia quando o dispositivo está inativo
+- Ajusta limites de processos em segundo plano
+- Restaura comportamento normal quando o dispositivo está ativo
+
+---
+
+## 📊 Comportamento
+
+| Estado  | Ação aplicada |
+|---------|--------------|
+| Inativo | Modo otimizado de bateria |
+| Ativo   | Comportamento normal do sistema |
+
+---
+
+## ⚠️ Observações
+
+- Este módulo não modifica partições do sistema
+- Todas as alterações são systemless
+- Foco em estabilidade, não agressividade
+
+---
+
+## 🧪 Status
+
+Em desenvolvimento (base v1.0)
+
+---
+
+## 👤 Autor
+
+bangkkuser
