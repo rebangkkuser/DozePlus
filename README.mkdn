@@ -1,0 +1,76 @@
+# DozePlus
+
+A lightweight and safe Android Doze optimization module designed to improve battery efficiency and idle state behavior.
+
+---
+
+## 🌐 Language / Idioma
+
+- 🇺🇸 English: https://github.com/rebangkkuser/DozePlus/blob/main/README.mkdn  
+- 🇧🇷 Português (Brasil): https://github.com/rebangkkuser/DozePlus/blob/main/README_pt-br.mkdn  
+
+---
+
+## ⚙️ Features
+
+- Optimizes Android Doze behavior
+- Reduces background process load during idle state
+- Lightweight service-based execution
+- No persistent background processes
+- Safe and reversible system changes
+
+---
+
+## 📱 Requirements
+
+- Android 8.0+ (API 26 or higher)
+- Magisk installed
+- Root access enabled
+
+---
+
+## 📦 Installation
+
+1. Download the latest release
+2. Open Magisk Manager
+3. Install the module from storage
+4. Reboot your device
+
+---
+
+## 🔧 How it works
+
+DozePlus applies system tuning at boot using Magisk service scripts:
+
+- Enables battery optimizations during idle state
+- Adjusts background process limits
+- Restores normal behavior when device is active
+
+---
+
+## 📊 Behavior
+
+| State | Action |
+|------|--------|
+| Idle | Battery optimized mode |
+| Active | Normal system behavior |
+
+---
+
+## ⚠️ Notes
+
+- This module does not modify system partitions
+- All changes are systemless
+- Focused on stability over aggressive tweaks
+
+---
+
+## 🧪 Status
+
+Work in progress (v1.0 base)
+
+---
+
+## 👤 Author
+
+bangkkuser
